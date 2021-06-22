@@ -34,6 +34,6 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
     - name: Add tag
-      run: docker tag portfolio docker.pkg.github.com/VsevolodVikhrov/personal_portfolio/portfolio
+      run: docker tag portfolio docker.pkg.github.com/vsevolodvikhrov/personal_portfolio/portfolio
     - name: Push new image
-      run: docker push docker.pkg.github.com/VsevolodVikhrov/personal_portfolio/portfolio
+      run: docker push docker.pkg.github.com/vsevolodvikhrov/personal_portfolio/portfolio
