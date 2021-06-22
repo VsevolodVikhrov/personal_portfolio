@@ -18,7 +18,7 @@ jobs:
         - name: Installing packages
           run: |
             python -m pip install --upgrade pip
-            pip install -r easycar/requirements.txt
+            pip install -r personal_portfolio/requirements.txt
   build_images:
     if: github.ref == 'refs/heads/my_test_portfolio'
     runs-on: ubuntu-latest
